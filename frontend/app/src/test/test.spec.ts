@@ -1,6 +1,6 @@
 import 'reflect-metadata';
-import { DiUtil } from '/Users/takahashimasaki/Desktop/studay/laravel/photo-app/frontend/app/src/util/di.util';
-import { testService } from '/Users/takahashimasaki/Desktop/studay/laravel/photo-app/frontend/app/src/services/test';
+import { DiUtil } from '@/util/di.util';
+import { testService } from '@/services/test';
 
 describe(`testService`, (): void =>{
     test(`testBook`,() => {

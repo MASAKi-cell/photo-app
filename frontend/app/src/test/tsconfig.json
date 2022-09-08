@@ -1,0 +1,23 @@
+{
+  "extends": "../tsconfig.paths.json",
+  "compilerOptions": {
+    "lib": [
+      "ESNext"
+    ],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "esModuleInterop": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "target": "ES2020",
+    "outDir": "lib"
+  },
+  "include": [
+    "**/*.ts",
+    "../src/**/*.ts",
+  ],
+}
