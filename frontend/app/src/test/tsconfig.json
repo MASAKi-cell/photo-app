@@ -1,9 +1,7 @@
 {
   "extends": "../tsconfig.paths.json",
   "compilerOptions": {
-    "lib": [
-      "ESNext"
-    ],
+    "lib": ["ESNext"],
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "resolveJsonModule": true,
@@ -16,8 +14,5 @@
     "target": "ES2020",
     "outDir": "lib"
   },
-  "include": [
-    "**/*.ts",
-    "../src/**/*.ts",
-  ],
+  "include": ["**/*.ts", "../src/**/*.ts"]
 }
